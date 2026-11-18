@@ -1,10 +1,19 @@
-# The Undergarden — a ceiling dimension for Horizon
+# The Undergarden — a Horizon port
 
-A partial port of **The Undergarden 0.9.6** (quek, MIT) for Minecraft Java **26.3** on Horizon's
-SDK (`api = "0.2"`, build `0b14f8ac…`, launcher ≥ 0.2.70). One flat `.hmod` carries the code and
-the content.
+**The Undergarden** is a Minecraft mod. Repository for the Undergarden, a Minecraft dimension mod. This repository is a **port of it to [Horizon](https://github.com/horizon-rust/horizon)**, the Rust engine for Minecraft Java 26.3. It carries the complete source of the port plus the content files it ships, and installs as a single `.hmod` package.
 
-## What this slice does
+Upstream: [quek04/undergarden](https://github.com/quek04/undergarden) — licence **MIT**.
+
+| | |
+|---|---|
+| Upstream mod | The Undergarden ([source](https://github.com/quek04/undergarden)) |
+| Ported to | Horizon 0b14f8a, Minecraft Java 26.3, mod API `0.2` |
+| Package | `undergarden.hmod` (install it with the Horizon launcher) |
+| Licence | **MIT** — the upstream mod's licence; see [Licence and credit](#licence-and-credit) |
+
+## What this port implements
+
+### What this slice does
 
 - Registers the level **`undergarden:undergarden`** with the jar's dimension type: a bedrock
   ceiling, fixed time, `min_y -64`, height 192, coordinate scale 4, ambient light 0.1, no
@@ -23,27 +32,47 @@ the content.
 - Adds **`/undergarden status`** and **`/undergarden climate …`**, which answer the registered
   level id, the biome and row counts, and one seed-independent cell per row.
 
-## What it does not do (recorded in `notes.md`)
+## Not yet ported
 
-The other 16 biomes, every mob, the Java chunk generator (`undergarden:noise`), the Java carver,
-the three `undergarden:bigger_jigsaw` structures, ores, trees, crops, progression and the custom
-`effects` id. A Java type the game cannot express is a stated gap, never a vanilla substitute.
+- **`blocked(undergarden:noise)` — the Java chunk generator.** `data/undergarden/dimension/undergarden.json:1`
+- **`blocked(undergarden:undergarden_cave)` — the Java carver.**
+- **`blocked(undergarden:bigger_jigsaw)` — three of the four structures.**
+- **`blocked(undergarden:boulder)` — the two rock features.**
+- **`minecraft:random_patch` has no 26.3 feature type.** The jar's `deepturf_patch`
+- **No mobs.** The biomes' `spawners` (`…/biome/forgotten_field.json:… "spawners"`) and the
+- **The custom `effects` id.** `dimension_type/undergarden.json` names
+- **Java block behaviour beyond a template.** Four small ones, all recorded rather than faked:
 
-## Build and verify
+## Installing
 
-```sh
-ports/tools/build-slot.sh run --job undergarden-ladder --port ports/undergarden \
-    --step build -- ports/undergarden/tools/check.sh
+1. Install the [Horizon launcher](https://github.com/horizon-rust/horizon/releases) (0.2.70 or newer).
+2. Add `undergarden.hmod` to the instance's mods.
+3. The package is pinned to a specific Horizon build; the launcher checks that pin.
+
+## Licence and credit
+
+The Undergarden was created by its upstream authors; the code, models and assets in the original mod
+remain theirs and are used here under **MIT**. The Rust in this repository is a clean-room
+rewrite for Horizon, not a translation of the original source.
+
+- `LICENSE` — the upstream licence text.
+- `LICENSE-NOTICE.md` — what this port carries and where it came from.
+- The upstream project: https://github.com/quek04/undergarden
+
+## Technical details
+
+```
+horizon-mod.toml   package manifest (id, version, api, [native] pin)
+Cargo.toml         the crate; depends on `horizon-mod-api` from the fetched SDK
+src/               lib.rs (the one `impl Hooks`), runtime.rs (pure logic + tests), glue
+assets/ data/      the content the package ships
+tools/             content generators and the e2e scenario
 ```
 
-`tools/check.sh` runs `cargo test`, clippy, `cargo fmt --check`, `cargo horizon-mod build`, then
-`check` and `fits` on the package, and finally `tools/carry.py --check`, which proves every
-carried byte is what the mapping derives from the jar.
+- Build: `cargo horizon-mod build` (packages; it does not compile against the game).
+- Test: `cargo test`, `cargo clippy --all-targets -- -D warnings`.
+- In-game: `ports/tools/launcher-game.sh run undergarden` in the campaign tree, or install the
+  `.hmod` and play; the harness scenario is `tools/e2e.sh`.
 
-`tools/e2e.sh` is the in-game scenario. **It has not been run**: no launcher ships the SDK at this
-pin, so no launcher-built game exists here. It is written and fail-capable (`SELFTEST=1`).
-
-## Licence
-
-MIT (rank 0), read from the jar's `META-INF/neoforge.mods.toml`. Local-only until the maintainer
-approves publishing. `LICENSE` and `LICENSE-NOTICE.md` record the provenance.
+This repository is generated from the campaign's port at `ports/undergarden/`; the port's own
+`notes.md` is the full record (decisions, traps, evidence).
