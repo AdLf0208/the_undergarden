@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "condition": {
+        "ability": "shears_dig",
+        "type": "neoforge:can_item_perform_ability"
+      },
+      "entries": [
+        {
+          "name": "undergarden:deepturf",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "undergarden:blocks/deepturf",
+  "type": "minecraft:block"
+}

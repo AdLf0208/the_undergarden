@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "hanging=false,waterlogged=false": {
+      "model": "undergarden:block/cloggrum_lantern_floor"
+    },
+    "hanging=false,waterlogged=true": {
+      "model": "undergarden:block/cloggrum_lantern_floor"
+    },
+    "hanging=true,waterlogged=false": {
+      "model": "undergarden:block/cloggrum_lantern_ceiling"
+    },
+    "hanging=true,waterlogged=true": {
+      "model": "undergarden:block/cloggrum_lantern_ceiling"
+    }
+  }
+}

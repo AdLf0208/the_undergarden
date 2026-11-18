@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "children": [
+            {
+              "condition": "minecraft:tool/can_silk_touch",
+              "name": "undergarden:ashen_deepturf_block",
+              "type": "minecraft:item"
+            },
+            {
+              "condition": {
+                "type": "minecraft:survives_explosion"
+              },
+              "name": "undergarden:deepsoil",
+              "type": "minecraft:item"
+            }
+          ],
+          "type": "minecraft:alternatives"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "undergarden:blocks/ashen_deepturf_block",
+  "type": "minecraft:block"
+}

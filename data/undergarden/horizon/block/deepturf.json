@@ -1,0 +1,16 @@
+{
+  "item": true,
+  "shapes": {
+    "default": [
+      [
+        0.125,
+        0.0,
+        0.125,
+        0.875,
+        0.8125,
+        0.875
+      ]
+    ]
+  },
+  "template": "minecraft:short_grass"
+}

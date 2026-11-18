@@ -1,0 +1,64 @@
+{
+  "feature": "undergarden:deepturf_patch",
+  "placement": [
+    {
+      "count": 100,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "max_inclusive": {
+          "below_top": 0
+        },
+        "min_inclusive": {
+          "above_bottom": 0
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "predicate": {
+        "blocks": [
+          "undergarden:deepturf_block",
+          "undergarden:deepsoil",
+          "undergarden:coarse_deepsoil"
+        ],
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:offset",
+      "x": {
+        "max": 7,
+        "min": -7,
+        "plateau": 0,
+        "type": "minecraft:trapezoid"
+      },
+      "y": {
+        "max": 3,
+        "min": -3,
+        "plateau": 0,
+        "type": "minecraft:trapezoid"
+      },
+      "z": {
+        "max": 7,
+        "min": -7,
+        "plateau": 0,
+        "type": "minecraft:trapezoid"
+      }
+    }
+  ]
+}

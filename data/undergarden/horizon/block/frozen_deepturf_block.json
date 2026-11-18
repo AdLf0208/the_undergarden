@@ -1,0 +1,9 @@
+{
+  "item": true,
+  "properties": {
+    "explosion_resistance": 0.6,
+    "hardness": 0.6,
+    "sounds": "minecraft:grass"
+  },
+  "template": "minecraft:dirt"
+}

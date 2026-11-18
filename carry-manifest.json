@@ -1,0 +1,593 @@
+{
+  "files": {
+    "assets/undergarden/blockstates/ashen_deepturf_block.json": {
+      "bytes": 246,
+      "sha256": "f0e920dc473636b419d8f5c9c28b84080089e38f05ef1635dee7c7bf7460c4f2"
+    },
+    "assets/undergarden/blockstates/cloggrum_lantern.json": {
+      "bytes": 447,
+      "sha256": "c7b8ce4a56fd637fa53b6736c04edc474c2ed70e0663dbde3d1190139af14920"
+    },
+    "assets/undergarden/blockstates/coarse_deepsoil.json": {
+      "bytes": 63,
+      "sha256": "af9def7c9d37592fc0cc4e49fde3677407d4ab5df50035c8036c04ddd8e15f27"
+    },
+    "assets/undergarden/blockstates/deepsoil.json": {
+      "bytes": 56,
+      "sha256": "43c5dfd1a000d72edafae8ee3f8bafc5d70ed6c241282ef7dd2d2a71e989d427"
+    },
+    "assets/undergarden/blockstates/deepturf.json": {
+      "bytes": 56,
+      "sha256": "0a63fcba4e914aebe2da36d7366c0b293410b6801d955e4ba192a805e7ca7b90"
+    },
+    "assets/undergarden/blockstates/deepturf_block.json": {
+      "bytes": 297,
+      "sha256": "595354353df1ca432129ef0b09bf4b7526984f9a051ba52571d111cafa83f8ae"
+    },
+    "assets/undergarden/blockstates/depthrock.json": {
+      "bytes": 57,
+      "sha256": "bf88f340a4ee398e820cbd1fd9fef4beaa972d3436e6c8d8b5a965bbd66832c2"
+    },
+    "assets/undergarden/blockstates/dreadrock.json": {
+      "bytes": 57,
+      "sha256": "7a07840618fb956c0af8040502f915cf2570a877a4e8df45c6397a59781a8c4c"
+    },
+    "assets/undergarden/blockstates/frozen_deepturf_block.json": {
+      "bytes": 250,
+      "sha256": "05c1e55afca33e62a4f91820487b30b76689eb2dcce7d52bbb0878a4a8e5416f"
+    },
+    "assets/undergarden/blockstates/sediment.json": {
+      "bytes": 56,
+      "sha256": "514ac5ad50519bea70d78a1742dae8c66ea35b755e57004f35cbee176b4ba98e"
+    },
+    "assets/undergarden/blockstates/shiverstone.json": {
+      "bytes": 59,
+      "sha256": "d95300cd9a37d774dd3d9612badab18b11d4edf69ca2255e13412acde28d3722"
+    },
+    "assets/undergarden/blockstates/smogstem_fence.json": {
+      "bytes": 961,
+      "sha256": "888c710a54031a021161fd74c34ab9473427ddc3dbc85bcb87747a3392deb989"
+    },
+    "assets/undergarden/blockstates/smogstem_planks.json": {
+      "bytes": 63,
+      "sha256": "b698fb03faa29e73075d7dd9128b64bde58a2204ed3c3c121d5ac93b77220609"
+    },
+    "assets/undergarden/blockstates/stripped_smogstem_log.json": {
+      "bytes": 240,
+      "sha256": "63140bacb00d2395407a769b1e19c7ab470ed77cc35dda6cca6db82de83f440b"
+    },
+    "assets/undergarden/items/ashen_deepturf_block.json": {
+      "bytes": 105,
+      "sha256": "07a2f7f3be9445fe03f309baa41a64361aac2d11c709aaeed82f7356872982bd"
+    },
+    "assets/undergarden/items/cloggrum_lantern.json": {
+      "bytes": 101,
+      "sha256": "eeecb78f0f75f14a84f6b7a209f3f79323df1e8110ba05cc6b71736a1bf97c53"
+    },
+    "assets/undergarden/items/coarse_deepsoil.json": {
+      "bytes": 100,
+      "sha256": "dcd13795f44f4116b8e4ef74c128d8eba26d1851f040036f4c9bede7a3381c0f"
+    },
+    "assets/undergarden/items/deepsoil.json": {
+      "bytes": 93,
+      "sha256": "bacf965b509e27bd4b958dca4e0d33d7d4eaae00a1d14575a228ca272271a30e"
+    },
+    "assets/undergarden/items/deepturf.json": {
+      "bytes": 93,
+      "sha256": "b6bfa92f704e5743314c6e15dd5ec7d967698bba8718ef2e5ab0d3676b47ce96"
+    },
+    "assets/undergarden/items/deepturf_block.json": {
+      "bytes": 99,
+      "sha256": "3a8bb21b3cc03cf28e9b0ef7a98eb95022843fce89efc7e64dfc3108b71d4597"
+    },
+    "assets/undergarden/items/depthrock.json": {
+      "bytes": 94,
+      "sha256": "068ae343d4cca50e3aeaf1bd898090dd7d4a9da210e4729bfe686fe7cbabde6b"
+    },
+    "assets/undergarden/items/dreadrock.json": {
+      "bytes": 94,
+      "sha256": "0285a0f118609ff8d5258d3a2290ab0e465dc075c84b9167d561d37f15ee882c"
+    },
+    "assets/undergarden/items/frozen_deepturf_block.json": {
+      "bytes": 106,
+      "sha256": "fcc6592e5305164e6549fd300aada2875fd94937707429825b0e8bbfa7d9c64e"
+    },
+    "assets/undergarden/items/sediment.json": {
+      "bytes": 93,
+      "sha256": "02c2a6834c299364e9bd4f0d4eca2f1a51ab1252f1d8fb397a61996aa7a24c06"
+    },
+    "assets/undergarden/items/shiverstone.json": {
+      "bytes": 96,
+      "sha256": "e6e2b1e8a70c98b12b40690e1d68a9612a154734413548ea6be48aa6cc23af8e"
+    },
+    "assets/undergarden/items/smogstem_fence.json": {
+      "bytes": 99,
+      "sha256": "29bc86feb7701214b5841ec3385f3b9f749fa6b76276841e2dbb24487a145856"
+    },
+    "assets/undergarden/items/smogstem_planks.json": {
+      "bytes": 100,
+      "sha256": "479af6bbee819fe9c01a91ff656a89a56f2a8d140a74a249a676da0ebd7e4d9f"
+    },
+    "assets/undergarden/items/stripped_smogstem_log.json": {
+      "bytes": 106,
+      "sha256": "6ca48d3b93456372bc78d8e329f04095624e3d2146fe7e4b6a51ab1c32b6c2a7"
+    },
+    "assets/undergarden/lang/en_us.json": {
+      "bytes": 773,
+      "sha256": "af6ab3b8d8c67572184a102ad6c7db402c4f37001fa92cea849aea85d0fe5568"
+    },
+    "assets/undergarden/models/block/ashen_deepturf_block.json": {
+      "bytes": 199,
+      "sha256": "f2b07084b581f0bdcf59df2162c0895664805da3e5603417eec68d6613d16762"
+    },
+    "assets/undergarden/models/block/cloggrum_lantern_ceiling.json": {
+      "bytes": 766,
+      "sha256": "0651f8194c8462ed98c94dbec1cb53c570703f8ff05ad336edf552b0ab624c84"
+    },
+    "assets/undergarden/models/block/cloggrum_lantern_floor.json": {
+      "bytes": 786,
+      "sha256": "7e0a8a8485c8f44d395f44fd83b93896b71083abf2b7e23142c0163204efba86"
+    },
+    "assets/undergarden/models/block/coarse_deepsoil.json": {
+      "bytes": 92,
+      "sha256": "adbeeeef5d730da4721493f8dabda0b97959dff828c2168f10a339550b57f9a8"
+    },
+    "assets/undergarden/models/block/deepsoil.json": {
+      "bytes": 85,
+      "sha256": "8736c2ca2109691a56cf5ba31717ad3b141df3fa206df1bf2edca375e85cb7b0"
+    },
+    "assets/undergarden/models/block/deepturf.json": {
+      "bytes": 124,
+      "sha256": "72c2a49916a4b57536713be87f3d417c08e1ba4c00d503215da69096f11b30a1"
+    },
+    "assets/undergarden/models/block/deepturf_block.json": {
+      "bytes": 1111,
+      "sha256": "3c957a2bc181a2bc70c62402d4d3e5f8529d12f8218b9612a5b32ddde4be9509"
+    },
+    "assets/undergarden/models/block/deepturf_block_snowy.json": {
+      "bytes": 178,
+      "sha256": "e0364d98a8a8f1dd2d5943b81f7ae79ac097855c956b3c2b76554f8f9fd0b721"
+    },
+    "assets/undergarden/models/block/depthrock.json": {
+      "bytes": 86,
+      "sha256": "91a4acece8900ffb240e5dd77af7cbe4f1a55dc18912d9b69c3da1442bc1684a"
+    },
+    "assets/undergarden/models/block/dreadrock.json": {
+      "bytes": 86,
+      "sha256": "f894c07a9e2c7876a1e134704777c0cecbc65b3f5e2c9bc38997cb7e7caa77a4"
+    },
+    "assets/undergarden/models/block/frozen_deepturf_block.json": {
+      "bytes": 201,
+      "sha256": "963099557f4ef882d7fafc5377726799c82d1f29d4403c984c2a8a6963a1a89d"
+    },
+    "assets/undergarden/models/block/sediment.json": {
+      "bytes": 85,
+      "sha256": "a85c463b2a150052edb7504b0625d200fe16b96b4b1c8353ff66f1b548def4a6"
+    },
+    "assets/undergarden/models/block/shiverstone.json": {
+      "bytes": 88,
+      "sha256": "032942bab41676dce5b1e7dea1c121e31f63bdf6f9ab218c1722283f27d17fa4"
+    },
+    "assets/undergarden/models/block/smogstem_fence_post.json": {
+      "bytes": 98,
+      "sha256": "f81442058e8ea0e57d056358ec69dd4598c8b0982fbcb80858037ea047ed564d"
+    },
+    "assets/undergarden/models/block/smogstem_fence_side.json": {
+      "bytes": 98,
+      "sha256": "0eb5b8b03dfd9371e6dfd7f66a59fa0a9d9a2951f60aeee7e467123b26ce0787"
+    },
+    "assets/undergarden/models/block/smogstem_planks.json": {
+      "bytes": 92,
+      "sha256": "cdc5e86be2f06d2b3383f0342c8fa02a146551db0c2a0970d1831df4c72f90ef"
+    },
+    "assets/undergarden/models/block/stripped_smogstem_log.json": {
+      "bytes": 159,
+      "sha256": "9c1979cb7fd6747244b7038bc6f7174ac7d7322180e6dabc9773f3ace13b82dd"
+    },
+    "assets/undergarden/models/block/stripped_smogstem_log_horizontal.json": {
+      "bytes": 170,
+      "sha256": "a9eb053734c620469e625b4e9921891a4c93553c94a7fa800c3c9a67f985de1a"
+    },
+    "assets/undergarden/models/item/ashen_deepturf_block.json": {
+      "bytes": 51,
+      "sha256": "fd59ca4efbb63cdb32ebc999c51ebc075f4a9948054aa3e23d1c07323f0940e0"
+    },
+    "assets/undergarden/models/item/cloggrum_lantern.json": {
+      "bytes": 100,
+      "sha256": "0163d842e46f5ccdaa6899ef35e1e38a34ad5145a13d8bbd775020f2215e04bb"
+    },
+    "assets/undergarden/models/item/coarse_deepsoil.json": {
+      "bytes": 46,
+      "sha256": "e78f0853284ad7950ce8176a7dae9437ccda4ac012529dd778d5428d3a929ea4"
+    },
+    "assets/undergarden/models/item/deepsoil.json": {
+      "bytes": 39,
+      "sha256": "c9bfcf784b7a584669c1758013699113512fe9c6feb584fcf71f697af49cfda1"
+    },
+    "assets/undergarden/models/item/deepturf.json": {
+      "bytes": 88,
+      "sha256": "d3f749d1ad85bff68433901b642411def6753f6577017642249ba9a3abc5ff61"
+    },
+    "assets/undergarden/models/item/deepturf_block.json": {
+      "bytes": 45,
+      "sha256": "61907397913d22c0c36cecc693070686efc9dac53d342ea267d0684334175acd"
+    },
+    "assets/undergarden/models/item/depthrock.json": {
+      "bytes": 40,
+      "sha256": "c2f95b2447d19173f96d9f9ad5f2b7c7a69bcea35c7381891fa8c9c7fd49dfee"
+    },
+    "assets/undergarden/models/item/dreadrock.json": {
+      "bytes": 40,
+      "sha256": "9e6b634cf55c69ea73e32029215fc9f3af0fb232ef5eed8866a2b387683765d0"
+    },
+    "assets/undergarden/models/item/frozen_deepturf_block.json": {
+      "bytes": 52,
+      "sha256": "803595aadefe2b98961de98fbc09e63408a50ac72ad488d93ee6afa1840550fd"
+    },
+    "assets/undergarden/models/item/sediment.json": {
+      "bytes": 39,
+      "sha256": "a39df6a27d9172ab9d655abca7e8d8658b384db4dd027039274088096dec7b48"
+    },
+    "assets/undergarden/models/item/shiverstone.json": {
+      "bytes": 42,
+      "sha256": "5085d44dfae7c600bcbf88ae2ec9ae837acd9b03f86883f177b62d743a2803c0"
+    },
+    "assets/undergarden/models/item/smogstem_fence.json": {
+      "bytes": 103,
+      "sha256": "08221229ac882378ae5ab0a67fa7e2dffa1000e04d71373088cbba06186504c0"
+    },
+    "assets/undergarden/models/item/smogstem_planks.json": {
+      "bytes": 46,
+      "sha256": "62abcd8b81c82db8f637d86ece67c18ca843b43457e3a3d0c847d5dc43dd981e"
+    },
+    "assets/undergarden/models/item/stripped_smogstem_log.json": {
+      "bytes": 52,
+      "sha256": "9a548ea63f8a158c9d74ca9cc8df879b1ae70624d53ddde87b97106cd9b1d2c9"
+    },
+    "assets/undergarden/textures/block/ashen_deepturf_block_side.png": {
+      "bytes": 659,
+      "sha256": "a3a4bcbd36dbd9ce40a807f3c7390c4c5095b6d666966e2b30414abe56af0ede"
+    },
+    "assets/undergarden/textures/block/ashen_deepturf_block_top.png": {
+      "bytes": 594,
+      "sha256": "2cac41a1c86d579305a5a7fd84ba76fc54aa9605663da95116130611acb23507"
+    },
+    "assets/undergarden/textures/block/cloggrum_block.png": {
+      "bytes": 477,
+      "sha256": "0b854243178c3d689149f6261de0170964ffc20fd13f47901bbd4d4a9102a02b"
+    },
+    "assets/undergarden/textures/block/cloggrum_lantern.png": {
+      "bytes": 949,
+      "sha256": "2619b64094936c1b85c2e16d8e4d19d9ab0428979bb58ffb0b334070c747fd57"
+    },
+    "assets/undergarden/textures/block/coarse_deepsoil.png": {
+      "bytes": 525,
+      "sha256": "d494e69aa74b4106908b6bae42926469f9d4c66d76c6ed860502df9179b93d04"
+    },
+    "assets/undergarden/textures/block/deepsoil.png": {
+      "bytes": 478,
+      "sha256": "5f450261c405b7fa1144b47db3ec888fea54ccad3489f65423045eb0c9870ecc"
+    },
+    "assets/undergarden/textures/block/deepturf.png": {
+      "bytes": 205,
+      "sha256": "2297b1cee2379295e1823014ffea7032b42268ae7af5af13fde9304f0826910e"
+    },
+    "assets/undergarden/textures/block/deepturf_block_side.png": {
+      "bytes": 589,
+      "sha256": "60db8f5221cd2e25d5950fda39227f586cc3358d7af86eff8f1882ba7aa51807"
+    },
+    "assets/undergarden/textures/block/deepturf_block_side_overlay.png": {
+      "bytes": 230,
+      "sha256": "10b6b5b0cf869f4f12fc4876d6dc2a8ab700f18198af70a8ae74547e9ed814d9"
+    },
+    "assets/undergarden/textures/block/deepturf_block_top.png": {
+      "bytes": 272,
+      "sha256": "f7f4d26dd6f30d66a0691d78e82054f4bfa63585a3ba389150996c5d6236a3eb"
+    },
+    "assets/undergarden/textures/block/depthrock.png": {
+      "bytes": 506,
+      "sha256": "5edbbe0f9de0f28aa280b281c1897ead0297881211bb883c281687897466075d"
+    },
+    "assets/undergarden/textures/block/dreadrock.png": {
+      "bytes": 424,
+      "sha256": "b3f182d0e0f048eabc08e50e9a34691819174ed8a27792f9c281ea9203cdd789"
+    },
+    "assets/undergarden/textures/block/frozen_deepturf_block_side.png": {
+      "bytes": 659,
+      "sha256": "0249d36e52616c0d7abaf57b3f958a5a62cc0b93a02a924603f7a6fc314fcb3d"
+    },
+    "assets/undergarden/textures/block/frozen_deepturf_block_top.png": {
+      "bytes": 276,
+      "sha256": "c87fade93b334443091c2563f4c2a61c107d2fcf4b7eeba2dd1109504c19778e"
+    },
+    "assets/undergarden/textures/block/sediment.png": {
+      "bytes": 298,
+      "sha256": "25d64c70c891a0ac3ed5de01100921720d8f9a970d15c1c02e2530d75ca1aa3a"
+    },
+    "assets/undergarden/textures/block/shiverstone.png": {
+      "bytes": 309,
+      "sha256": "6367db85b8da9a83651da43c49ec20d05486fa42dcc8639d15a634583d9cd987"
+    },
+    "assets/undergarden/textures/block/smogstem_planks.png": {
+      "bytes": 302,
+      "sha256": "7e94772ff1fefdb0b30b08eaf4d8acb5347772c2f60a8a1bb576dd0014d7e263"
+    },
+    "assets/undergarden/textures/block/stripped_smogstem_log_end.png": {
+      "bytes": 394,
+      "sha256": "f2075441ed406353acc744b29f181cbc996248a09c4f4743124e7fe1df71aee6"
+    },
+    "assets/undergarden/textures/block/stripped_smogstem_log_side.png": {
+      "bytes": 395,
+      "sha256": "b542d3da13c0cd49052190da3bfd85823edc82dbaab3bef3c8ed042b5d016e92"
+    },
+    "assets/undergarden/textures/item/cloggrum_lantern_item.png": {
+      "bytes": 313,
+      "sha256": "ce543302c2c6b6eba71cbe36a41227045fd8330d3b7886768f0e2c01bc33dbf5"
+    },
+    "data/minecraft/tags/block/animals_spawnable_on.json": {
+      "bytes": 136,
+      "sha256": "6dd462db269f5909057a37fffd0e6c9c789418c4d68bb7271df6723bf4346931"
+    },
+    "data/minecraft/tags/block/bamboo_plantable_on.json": {
+      "bytes": 199,
+      "sha256": "b37fca51f756af50c0d5d81aea225ef4f74ba70935cc5840cde0e9f2f6551588"
+    },
+    "data/minecraft/tags/block/dirt.json": {
+      "bytes": 199,
+      "sha256": "b37fca51f756af50c0d5d81aea225ef4f74ba70935cc5840cde0e9f2f6551588"
+    },
+    "data/undergarden/horizon/block/ashen_deepturf_block.json": {
+      "bytes": 160,
+      "sha256": "b56a6ca0a0899ffdb0c161b34b8b52fe786966bac03c3eb1cb79b2e4826cad5a"
+    },
+    "data/undergarden/horizon/block/cloggrum_lantern.json": {
+      "bytes": 54,
+      "sha256": "fa60c7c5d6eefcbeef250aea3e315b84468a0593e4d65a2c9cd853a43959a328"
+    },
+    "data/undergarden/horizon/block/coarse_deepsoil.json": {
+      "bytes": 58,
+      "sha256": "c933eb08844314c642d0cb37a9a1d0b879014f07c85e144d1401acf217204d13"
+    },
+    "data/undergarden/horizon/block/deepsoil.json": {
+      "bytes": 51,
+      "sha256": "82d13fd9058f47d3bc56d610cef454e99b9e9a12d743c61114682262674bc3eb"
+    },
+    "data/undergarden/horizon/block/deepturf.json": {
+      "bytes": 204,
+      "sha256": "1aee74e8f6e0a6fff39a82f616bb6ff939960629945fe43a4a498293516a86cd"
+    },
+    "data/undergarden/horizon/block/deepturf_block.json": {
+      "bytes": 58,
+      "sha256": "fe3901f58d7e523dc4f11735699893fe6f724b6753a0e05234149d2428b26b57"
+    },
+    "data/undergarden/horizon/block/depthrock.json": {
+      "bytes": 189,
+      "sha256": "f5539ceb2f60c2d422d0c4a10a1ffb01b2ad475dada8e6392954279d16f1432c"
+    },
+    "data/undergarden/horizon/block/dreadrock.json": {
+      "bytes": 193,
+      "sha256": "1f69c1ecd6d6ee5b0dfcb7018c9e5bb1dbccb1e89f14fb9dbe5e20561641f7e4"
+    },
+    "data/undergarden/horizon/block/frozen_deepturf_block.json": {
+      "bytes": 160,
+      "sha256": "b56a6ca0a0899ffdb0c161b34b8b52fe786966bac03c3eb1cb79b2e4826cad5a"
+    },
+    "data/undergarden/horizon/block/sediment.json": {
+      "bytes": 159,
+      "sha256": "b09c59f78b8be68ae53882815bb5eca568a2de7bfa41a3d65c11246fe93e33da"
+    },
+    "data/undergarden/horizon/block/shiverstone.json": {
+      "bytes": 219,
+      "sha256": "4e5881863bef07db880e814bb86d6c59118d0c61d7f4610c088e2f63d444c8fa"
+    },
+    "data/undergarden/horizon/block/smogstem_fence.json": {
+      "bytes": 56,
+      "sha256": "e9af096c8d1aca2307ca1fc14d13ec20095ea447a754b5ea0ca4b47966b1df2b"
+    },
+    "data/undergarden/horizon/block/smogstem_planks.json": {
+      "bytes": 57,
+      "sha256": "9dfbcfdee3ad2a16ec530183f9673db05b04128783cebfc664c4d26f09583209"
+    },
+    "data/undergarden/horizon/block/stripped_smogstem_log.json": {
+      "bytes": 54,
+      "sha256": "b0f2dcfe5423513582c42f3a810bd5d643a8e4c3e1340b9fc4c8ddace0afafc2"
+    },
+    "data/undergarden/loot_table/blocks/ashen_deepturf_block.json": {
+      "bytes": 699,
+      "sha256": "bd281c381d056ce9921807f3a961a4cb49493d5419cd889a817f899f01ca67fd"
+    },
+    "data/undergarden/loot_table/blocks/cloggrum_lantern.json": {
+      "bytes": 377,
+      "sha256": "347b43be8cc393f540769d1280bb46a156faf84453585ae08b4d755457585090"
+    },
+    "data/undergarden/loot_table/blocks/coarse_deepsoil.json": {
+      "bytes": 375,
+      "sha256": "868cbd83dcdc168a0c9bf495a4697aec387fba3cc307f1626f00d32d427c70c2"
+    },
+    "data/undergarden/loot_table/blocks/deepsoil.json": {
+      "bytes": 361,
+      "sha256": "8a618f9343b9c0af7d3d86f1386f4516434072eaa38ad33bfae32c9d4cd7d5b0"
+    },
+    "data/undergarden/loot_table/blocks/deepturf.json": {
+      "bytes": 399,
+      "sha256": "d9a7269e23714e54c1dccc1d6cea88832a34b45c91486b9591522284740a9da4"
+    },
+    "data/undergarden/loot_table/blocks/deepturf_block.json": {
+      "bytes": 687,
+      "sha256": "a30ab8431ddd2fd5cb0fabd006aa60b41a64767c3959e6eb258aa8d7ce2a1e54"
+    },
+    "data/undergarden/loot_table/blocks/depthrock.json": {
+      "bytes": 363,
+      "sha256": "94c519c2e3d8d0674b3d81759f19f519e69d2035cf3098f22a8cf72ca4e55c40"
+    },
+    "data/undergarden/loot_table/blocks/dreadrock.json": {
+      "bytes": 363,
+      "sha256": "26a1887fa23018b7c8148bb90427d1f60e211e7b2b782fe50e79da5f81bf719a"
+    },
+    "data/undergarden/loot_table/blocks/frozen_deepturf_block.json": {
+      "bytes": 701,
+      "sha256": "a08c6c65b42f7ac3e50bb11cee9a547cfaa11b2704be856ea944dbd58089cb68"
+    },
+    "data/undergarden/loot_table/blocks/sediment.json": {
+      "bytes": 361,
+      "sha256": "9b20cda35a37a438c8b6f7d45519ab26621e35c711dbae8fb4fb3f1bbc2b24d9"
+    },
+    "data/undergarden/loot_table/blocks/shiverstone.json": {
+      "bytes": 367,
+      "sha256": "4f5883a1a5b9580557a2e63d279ac2b44e468c78911b21e34b5e2d969ff0b229"
+    },
+    "data/undergarden/loot_table/blocks/smogstem_fence.json": {
+      "bytes": 373,
+      "sha256": "6afe37e6c476ffb934ea7eb8d85d76de59843558c244d3c0660377a08dd6be2f"
+    },
+    "data/undergarden/loot_table/blocks/smogstem_planks.json": {
+      "bytes": 375,
+      "sha256": "e6b4305da72633802ae9021fe4c29c984d5ee1b4774efcffe49ce4daab5d819c"
+    },
+    "data/undergarden/loot_table/blocks/stripped_smogstem_log.json": {
+      "bytes": 387,
+      "sha256": "e5abc9a5d2497e6facfe8e9f76c8c5f54610242bd5fd1476a9611fd43df1e37a"
+    },
+    "data/undergarden/structure/depleted_mine/clutter/chest_1.nbt": {
+      "bytes": 402,
+      "sha256": "a79f1d5fa6f5f55a8ed8b7862d7b35840800b9d128139b9c57647d1fc6ea8fe4"
+    },
+    "data/undergarden/structure/depleted_mine/clutter/dirt_mound_1.nbt": {
+      "bytes": 605,
+      "sha256": "647d3cb7c891df9a6e5d83f93271f13ca436b48bfcb867e200dac27fd853f778"
+    },
+    "data/undergarden/structure/depleted_mine/clutter/dirt_mound_2.nbt": {
+      "bytes": 626,
+      "sha256": "60d044f2c8b8c8eea7b9a7fc414a1c5010b7e0f7a25ff77e4537cb879e4ef9db"
+    },
+    "data/undergarden/structure/depleted_mine/clutter/dirt_mound_3.nbt": {
+      "bytes": 460,
+      "sha256": "d36c82d858d35848136eca5ee6d0ddf2446cced08065757c05bc4a30e5bcb824"
+    },
+    "data/undergarden/structure/depleted_mine/clutter/dreadrock_mound_1.nbt": {
+      "bytes": 589,
+      "sha256": "a97002a3fe56ad85f7328609fc32f5a6219cbaadfdc91717a250ed81ac528229"
+    },
+    "data/undergarden/structure/depleted_mine/clutter/dreadrock_mound_2.nbt": {
+      "bytes": 583,
+      "sha256": "95706f7fbe52d57f4af6ef067eeaac5db5efdf4bba62cca4ff0aa6b2d887f526"
+    },
+    "data/undergarden/structure/depleted_mine/clutter/dreadrock_mound_3.nbt": {
+      "bytes": 528,
+      "sha256": "41eed645867a42af0069ef4165a47a8991144a556b0815a232fafd20e3e9f1e9"
+    },
+    "data/undergarden/structure/depleted_mine/clutter/logs_1.nbt": {
+      "bytes": 456,
+      "sha256": "1951e3454beb7bdcfc05c1e1568978bbe1f25bfc06e05ea53ff26e9f14a1750c"
+    },
+    "data/undergarden/structure/depleted_mine/clutter/logs_2.nbt": {
+      "bytes": 494,
+      "sha256": "d30acd1323c29e4495a21bc659e31907c5e2cea737852aa9236a7649454e6f36"
+    },
+    "data/undergarden/structure/depleted_mine/walkway/3way_1.nbt": {
+      "bytes": 3828,
+      "sha256": "a405606f423dd7b044bf42982359e7540af41013acb2779515c741e2bbba64b6"
+    },
+    "data/undergarden/structure/depleted_mine/walkway/4way_1.nbt": {
+      "bytes": 2437,
+      "sha256": "2ebdd549440bbb30b57343c482e843a88950580ec19428b5cc622e2fbde97a39"
+    },
+    "data/undergarden/structure/depleted_mine/walkway/stair_1.nbt": {
+      "bytes": 1976,
+      "sha256": "3b2ebe82d6cf7520c2c36cec32416e25d1cae6884e100f34ee9c9a2be09716fd"
+    },
+    "data/undergarden/structure/depleted_mine/walkway/stair_2.nbt": {
+      "bytes": 1647,
+      "sha256": "7aea189e0f8e8a20e85868f4c272d8d00d840749be79e2778e57c2659ab47067"
+    },
+    "data/undergarden/structure/depleted_mine/walkway/straight_1.nbt": {
+      "bytes": 892,
+      "sha256": "ac7b1744d5b69695dbc68149cf67bbf5cb044938fb4a58e9be9fbd233056cd40"
+    },
+    "data/undergarden/structure/depleted_mine/walkway/straight_2.nbt": {
+      "bytes": 1129,
+      "sha256": "4b4a3151c7fc4dcdb3568717244767a33ede03e156f6c7ddad600b00c67b69b3"
+    },
+    "data/undergarden/structure/depleted_mine/walkway/straight_3.nbt": {
+      "bytes": 1931,
+      "sha256": "121e2e8cea2c17d66a19b1a47965c353e802b54992d13db7033ce4522d10ab49"
+    },
+    "data/undergarden/structure/depleted_mine/walkway/turn_1.nbt": {
+      "bytes": 1573,
+      "sha256": "363a3df801a41d10e8b412ba9f61acd6631352a0496dddd400992122240bafdd"
+    },
+    "data/undergarden/structure/depleted_mine/walkway/turn_2.nbt": {
+      "bytes": 2834,
+      "sha256": "b83b50b8727d8d8936cf625be99cba740b4539d0854a186985c48164b2061aa0"
+    },
+    "data/undergarden/tags/worldgen/biome/has_structure/depleted_mine.json": {
+      "bytes": 57,
+      "sha256": "2872befc5caf8149325142dc1ddd8f2957e4d34e64828fcec5ec116a20b14e0a"
+    },
+    "data/undergarden/tags/worldgen/biome/is_depths_biome.json": {
+      "bytes": 47,
+      "sha256": "6f7b5f8674d4ea939f49ef7ba89e2dd1db39415da99a30d4bc838fdd5f67e6eb"
+    },
+    "data/undergarden/worldgen/biome/ancient_sea.json": {
+      "bytes": 513,
+      "sha256": "5d359ee3f13b9807ec9550f6e9f08816a4934f4146725aa85d9dd2f003f52a14"
+    },
+    "data/undergarden/worldgen/biome/dense_forest.json": {
+      "bytes": 513,
+      "sha256": "877053753b817d5a0cd3e590f5045eb94f647503c3ee694e2f73eccad7bdae55"
+    },
+    "data/undergarden/worldgen/biome/depths.json": {
+      "bytes": 473,
+      "sha256": "e73fbb4a89da5289ce66745c6a8191be29d08a80bbdd120b4dce4a240b4912fc"
+    },
+    "data/undergarden/worldgen/biome/forgotten_field.json": {
+      "bytes": 513,
+      "sha256": "a65ed068727366e9f27a087c2e99a0025ab97776b6ce405a29fa547a55f33716"
+    },
+    "data/undergarden/worldgen/biome/smogstem_forest.json": {
+      "bytes": 513,
+      "sha256": "a0876b1526c6e96fcfc0ec1a6fee5688de9418244b9b296935ce39609ac705d0"
+    },
+    "data/undergarden/worldgen/feature/deepturf_patch.json": {
+      "bytes": 93,
+      "sha256": "1365b362c59afd25202283b578439dffda95f4853c27a2f5d38e32673a89daef"
+    },
+    "data/undergarden/worldgen/material_rule/undergarden.json": {
+      "bytes": 5644,
+      "sha256": "abca54fb6137c78a5e3cff35b26b00473661d22ed52a0e15f69228541dfb9ffe"
+    },
+    "data/undergarden/worldgen/noise_settings/undergarden.json": {
+      "bytes": 5880,
+      "sha256": "5ac0898848654b0c02c33753c4a7d5788b8992f4ea58760424a851d4fd2b8d87"
+    },
+    "data/undergarden/worldgen/placed_feature/deepturf_patch.json": {
+      "bytes": 1224,
+      "sha256": "a5de3204f68cdc777405970f3f832495cc7d54b00202fc9b279951e517fe1ed0"
+    },
+    "data/undergarden/worldgen/processor_list/depleted_mine_lantern_processor.json": {
+      "bytes": 294,
+      "sha256": "e8b8e4e1abcdc45df33d78e9ea19a2d167600621552b3ddbfb30272630ed94c2"
+    },
+    "data/undergarden/worldgen/structure/depleted_mine.json": {
+      "bytes": 554,
+      "sha256": "65e350823ebb1252098d411595cd35b39a0b759b5ae4e6eb85012cf52bcd16de"
+    },
+    "data/undergarden/worldgen/structure_set/depleted_mine.json": {
+      "bytes": 222,
+      "sha256": "cd2e908a32812201a6a87bbc4cdca3872f3c08da0a5d67ee6ce65ee7165588e2"
+    },
+    "data/undergarden/worldgen/template_pool/depleted_mine/clutter_pool.json": {
+      "bytes": 1850,
+      "sha256": "de657b13075430997873b767790ce2edae16482c5919bee846e4c9c77936d00b"
+    },
+    "data/undergarden/worldgen/template_pool/depleted_mine/walkway_pool.json": {
+      "bytes": 1911,
+      "sha256": "55d59c7ec871c289c1155afc7e2115379dbaeb5727533f3c7e31d24b1f5375bd"
+    }
+  },
+  "jar": {
+    "bytes": 45294936,
+    "name": "The_Undergarden-1.21.1-0.9.6.jar",
+    "sha256": "49e3db6ce2cf6864e9d45f0633de95bc3ef72cbd5ebffee493fca7198d30ccb0"
+  }
+}

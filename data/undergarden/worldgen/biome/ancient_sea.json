@@ -1,0 +1,31 @@
+{
+  "attributes": {
+    "minecraft:visual/fog_color": "#121909",
+    "minecraft:visual/sky_color": "#121909",
+    "minecraft:visual/water_fog_color": "#05140a"
+  },
+  "carvers": [],
+  "downfall": 0.0,
+  "effects": {
+    "foliage_color": "#445243",
+    "grass_color": "#445243",
+    "water_color": "#053922"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "undergarden:deepturf_patch"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 0.8
+}

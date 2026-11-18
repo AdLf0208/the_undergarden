@@ -1,0 +1,26 @@
+id = "undergarden"
+name = "The Undergarden"
+version = "0.2.0"
+description = """The Undergarden's ceiling dimension for Horizon: the level undergarden:undergarden is
+registered with the jar's dimension type (a bedrock ceiling, fixed time, min_y -64, height 192,
+coordinate scale 4, ambient light 0.1), the jar's noise settings carried as 26.3 data with its
+surfaces, a multi-noise biome table restricted to five of the mod's biomes, the blocks those
+surfaces place, the one data-defined structure whose structure type is vanilla's jigsaw, and
+/undergarden status. The other biomes, the mobs, the Java chunk generator, carver and structure
+types, and the custom effects id are recorded gaps in notes.md."""
+authors = ["quek", "AdLf0208"]
+# A native mod: Rust in src/, compiled by the launcher against the game build [native] pins,
+# beside data/ and assets/. The id is the resource namespace and the only identity: Cargo's
+# package name and version are not the mod's.
+api = "0.2"
+# "both" is the installation side, not the hook's: an integrated server belongs to the client
+# installation, so a LAN host or a single-player world needs both.
+side = "both"
+# The one shared value every manifest carries ("May add blocks, items, mob effects and entity
+# types"); this mod declares its blocks under data/undergarden/horizon/block/.
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+horizon = "0b14f8acfd97fa2c750e42795249dcc981178ca4"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
